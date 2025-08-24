@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Solutions - Our Services</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header/Navbar -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Digital<span>Solutions</span></div>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Our Digital Services</h1>
+          <p>
+            We provide cutting-edge digital solutions to help your business grow
+            in the modern digital landscape.
+          </p>
+          <a href="#services" class="btn">Explore Services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">Filter our services by category</p>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">
+            All Services
+          </button>
+          <button class="filter-btn" data-filter="design">Design</button>
+          <button class="filter-btn" data-filter="development">
+            Development
+          </button>
+          <button class="filter-btn" data-filter="marketing">Marketing</button>
+          <button class="filter-btn" data-filter="consulting">
+            Consulting
+          </button>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <div class="service-card" data-category="design">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt="UI/UX Design"
+              />
+            </div>
+            <div class="service-content">
+              <h3>UI/UX Design</h3>
+              <p>
+                Create intuitive and engaging user experiences with our expert
+                design team.
+              </p>
+              <button class="service-btn" data-service="1">Learn More</button>
+            </div>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="service-card" data-category="development">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt="Web Development"
+              />
+            </div>
+            <div class="service-content">
+              <h3>Web Development</h3>
+              <p>
+                Build responsive and high-performance websites tailored to your
+                business needs.
+              </p>
+              <button class="service-btn" data-service="2">Learn More</button>
+            </div>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="service-card" data-category="marketing">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt="Brand Identity"
+              />
+            </div>
+            <div class="service-content">
+              <h3>Digital Marketing</h3>
+              <p>
+                Boost your online presence with our data-driven marketing
+                strategies.
+              </p>
+              <button class="service-btn" data-service="3">Learn More</button>
+            </div>
+          </div>
+
+          <!-- Service Card 4 -->
+          <div class="service-card" data-category="consulting">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt="IT Consulting"
+              />
+            </div>
+            <div class="service-content">
+              <h3>IT Consulting</h3>
+              <p>
+                Get expert advice on technology solutions that drive business
+                growth.
+              </p>
+              <button class="service-btn" data-service="4">Learn More</button>
+            </div>
+          </div>
+
+          <!-- Service Card 5 -->
+          <div class="service-card" data-category="design">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt="Brand Identity"
+              />
+            </div>
+            <div class="service-content">
+              <h3>Brand Identity</h3>
+              <p>
+                Develop a strong brand identity that resonates with your target
+                audience.
+              </p>
+              <button class="service-btn" data-service="5">Learn More</button>
+            </div>
+          </div>
+
+          <!-- Service Card 6 -->
+          <div class="service-card" data-category="development">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt="Mobile Apps"
+              />
+            </div>
+            <div class="service-content">
+              <h3>Mobile App Development</h3>
+              <p>
+                Create powerful mobile applications for iOS and Android
+                platforms.
+              </p>
+              <button class="service-btn" data-service="6">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Transform Your Business?</h2>
+          <p>
+            Get in touch with us today to discuss how our services can help you
+            achieve your goals.
+          </p>
+          <a href="#contact" class="btn">Contact Us Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Popup -->
+    <div class="modal" id="serviceModal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-body">
+          <h2 id="modal-title">Service Title</h2>
+          <div class="modal-image">
+            <img id="modal-img" src="" alt="Service Image" />
+          </div>
+          <p id="modal-description">Service description will appear here.</p>
+          <div class="modal-features">
+            <h3>What's Included</h3>
+            <ul id="modal-features-list">
+              <!-- Features will be added dynamically -->
+            </ul>
+          </div>
+          <a href="#contact" class="btn modal-btn">Get This Service</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2023 Digital Solutions. All Rights Reserved.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
